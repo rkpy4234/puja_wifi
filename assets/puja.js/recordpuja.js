@@ -66,15 +66,6 @@ const body = document.querySelector("body"),
       })
 
     //fullname display
-      document.addEventListener('DOMContentLoaded', function () {
-        var fullName = localStorage.getItem('fullName');
-        if (fullName) {
-            document.getElementById('fullName').textContent = fullName;
-        } else {
-            alert('No user information found.');
-            window.location.href = "index.html";
-        }
-    });
 
     
     //table view

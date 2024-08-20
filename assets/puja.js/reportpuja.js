@@ -66,15 +66,7 @@ const body = document.querySelector("body"),
       })
 
     //fullname display
-      document.addEventListener('DOMContentLoaded', function () {
-        var fullName = localStorage.getItem('fullName');
-        if (fullName) {
-            document.getElementById('fullName').textContent = fullName;
-        } else {
-            alert('No user information found.');
-            window.location.href = "index.html";
-        }
-    });
+
 
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxqIV-CGecGr91jPwuMjZNwij7FPIFB0QX9HqUlnbdrr9oCQxs2RW5sHphCBAGe3kvQmg/exec?sheet=puja';
     const form = document.forms['problem'];
