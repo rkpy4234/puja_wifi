@@ -78,7 +78,7 @@ const body = document.querySelector("body"),
 
     //for table view
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('https://script.google.com/macros/s/AKfycby6kIkSwiTFaZt-gPODlEOFPwigQlgBO0L1ktYMjcRiwfhmFNWY8WNIB9BopLmP4jwM8Q/exec?sheet=puja&range=G1:I15')
+        fetch('https://script.google.com/macros/s/AKfycbzY365l6gvBTBdz0RCPxAnYyNWf9nGIhrlC-6L4A6d3M6I6anc8DmgMDPrQTLOR4hGL/exec?sheet=Puja_wifi&range=K1:M15')
             .then(response => response.json())
             .then(sheetData => {
                 const tableHeader = document.getElementById('table-header');

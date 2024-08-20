@@ -79,7 +79,7 @@ const body = document.querySelector("body"),
     
     //table view
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('https://script.google.com/macros/s/AKfycby6kIkSwiTFaZt-gPODlEOFPwigQlgBO0L1ktYMjcRiwfhmFNWY8WNIB9BopLmP4jwM8Q/exec?sheet=puja&range=C1:E15')
+        fetch('https://script.google.com/macros/s/AKfycbyDs6wU535RjjUCzMgHUI5QgaMf59HM4ormgv3hvIwHIAwd7pIiIZgC9eAEjYOx7RAWgw/exec?sheet=Puja_wifi&range=A1:D15')
             .then(response => response.json())
             .then(sheetData => {
                 const tableHeader = document.getElementById('table-header');

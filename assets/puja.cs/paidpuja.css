@@ -324,7 +324,7 @@ section{
 .paidpuja{
   margin-top: 75px;
   padding: 20px 0;
-  width: auto;
+  max-width: 400px;
   border: none;
   color: var(--text-color);
   background-color: var(--body-color);
